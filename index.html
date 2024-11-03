@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="icon" href="data:">
+<title>text-reverse</title>
+</head><body>
+<h1>text-reverse</h1>
+
+<textarea id=tasrc></textarea>
+<div>↓</div>
+<textarea id=tadst></textarea>
+
+<hr>
+<a href=https://github.com/code4fukui/text-reverse/>src on GitHub</a>
+
+<script type="module">
+tasrc.onkeyup = tasrc.onchange = (e) => {
+  const s = tasrc.value;
+  const res = s.split("\n").reverse().join("\n");
+  tadst.value = res;
+};
+
+</script>
+
+<style>
+textarea {
+  width: 95vw;
+  height: 15em;
+}
+</style>
+
+</body></html>
