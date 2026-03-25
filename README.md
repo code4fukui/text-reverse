@@ -1,15 +1,21 @@
 # text-reverse
-日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-A simple text reversal tool.
+A Web/Code project by [Code for FUKUI](https://github.com/code4fukui).
 
-## Features
-- Reverse the order of lines in the input text
-- Supports multi-line text input
+**Live demo**: https://code4fukui.github.io/text-reverse/
 
-## Usage
-1. Enter the text you want to reverse in the top textarea.
-2. The reversed text will automatically appear in the bottom textarea.
+## Technology Stack
+
+
+## Installation & Setup
+
+No build step required. Clone the repository and open `index.html` in a browser,
+or visit the live demo at https://code4fukui.github.io/text-reverse/
+
+## Contributing
+
+Contributions are welcome. Please open an issue or pull request on GitHub.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+
+MIT License. See [LICENSE](./LICENSE) for details.
